@@ -11,11 +11,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @Getter
 @Setter
-@Document("accounts")
-public class Account extends BaseModel{
+@Document("addresses")
+public class Address extends BaseModel{
     @Id
     private Long Id;
-    private String Username;
-    private String Password;
-    private boolean IsActive;
+    private String Street;
+    private String Ward;
+    private String District;
+    private String City;
+    private String Country;
 }

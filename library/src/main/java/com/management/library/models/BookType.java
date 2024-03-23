@@ -11,11 +11,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @Getter
 @Setter
-@Document("accounts")
-public class Account extends BaseModel{
+@Document("book-types")
+public class BookType extends BaseModel{
     @Id
     private Long Id;
-    private String Username;
-    private String Password;
-    private boolean IsActive;
+    private String TypeName;
 }
