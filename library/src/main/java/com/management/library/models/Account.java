@@ -17,5 +17,6 @@ public class Account extends BaseModel{
     private Long Id;
     private String Username;
     private String Password;
+    private String Avatar;
     private boolean IsActive;
 }

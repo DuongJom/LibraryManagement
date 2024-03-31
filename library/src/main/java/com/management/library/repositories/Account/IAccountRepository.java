@@ -6,5 +6,4 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface IAccountRepository extends MongoRepository<Account, Long> {
-    Account findAccountByEmail(String email);
 }

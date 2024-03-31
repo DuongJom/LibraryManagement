@@ -30,5 +30,5 @@ public class Book extends BaseModel{
     @DBRef
     private List<Author> Authors;
     @DBRef
-    private List<BookType> Type;
+    private List<BookType> Types;
 }
